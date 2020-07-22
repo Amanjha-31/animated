@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Card</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<style>
+		body {
+	font-family: 'lato', sans-serif;
+	background-color: #1abc9c;
+}
+
+ .card_container {
+ 	margin-top: 50px;
+ }
+
+ .card {
+ 	background-color: #fff;
+ 	padding: 20px;
+ 	margin: 30px;
+ 	border-radius: 0px;
+ 	2box-shadow: -20px -20px 0px 0px rgba(255,255,255,0.);
+ 	animation-name: shadow_show;
+ 	animation-duration: 1.6s;
+ 	transition-timing-function: cubic-bezier(0.795, 0, 0.165, 1);
+ }
+
+ h2 {
+ 	margin: opx;
+ 	padding: 0px 0px 15px 0px;
+ 	font-size: 30px;
+ 	text-transform: uppercase;
+ 	color: #282828;
+ }
+
+ hr {
+ 	display: block;
+ 	border: none;
+ 	height: 3px;
+ 	background-color: #1abc9c;
+ 	margin: 0px;
+ 	animation-name: line_show;
+ 	animation-duration: 2.0s;
+ 	transition-timing-function: cubic-bezier(0.795, 0, 0.165, 1);
+ } 
+
+ p {
+ 	margin: 15px 0px 0px 0px;
+ 	font-size: 16px;
+ 	word-break: break-all;
+ 	word-wrap: pre-wrap;
+ 	color: #282828;
+ 	animation-name: para_show;
+ 	animation-duration: 10.0s;
+ }
+
+ a {
+ 	background-color: #1abc9c;
+ 	text-decoration: none;
+ 	margin-top: 10px;
+ 	padding: 10px 30px;
+ 	color: #fff;
+ 	text-transform: uppercase;
+ 	text-align: center;
+ }
+
+@keyframes line_show{
+	from{
+		margin: 0px 100px;
+	}
+	to{
+		margin: 0;
+	}
+}
+@keyframes  para_show{
+from{
+		color: #fff;
+	to{
+		color: #282828;
+	}
+}
+
+@keyframes shadow_show{
+	from{
+		box-shadow: 0px 0px 0px 0px rgba(255,255,255,0.2);
+	}
+	to{
+		box-shadow: 0px 0px 0px 0px rgba(255,255,255,0.2);
+	}
+}
+
+		
+	</style>
+</head>
+<body>
+ <section class="card_container">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-lg-4">
+ 				<div class="card">
+ 					<h2>Heading</h2>
+ 					<hr>
+ 					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ 				</p>
+ 				<a href="#">read more</a>
+ 				</div>
+ 				</div>
+
+ 				<div class="col-lg-4">
+ 				<div class="card">
+ 					<h2>Heading</h2>
+ 					<hr>
+ 					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ 				</p>
+ 				<a href="#">read more</a>
+ 				</div>
+ 				</div>
+
+ 				<div class="col-lg-4">
+ 				<div class="card">
+ 					<h2>Heading</h2>
+ 					<hr>
+ 					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ 				</p>
+ 				<a href="#">read more</a>
+ 				</div>
+ 				</div>
+ 			</div>
+ 	</div>
+ </section>
+</body>
+</html>
